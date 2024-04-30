@@ -1,4 +1,4 @@
-# 📚 Clase 1: Tema "URL"
+# 📚 Clase 1: Tema "HTML"
 
 ## 🔗 Puertos predeterminados
 - HTTP: 80
