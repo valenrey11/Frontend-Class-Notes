@@ -1,0 +1,30 @@
+📚 Class 1: Topic "HTML"
+🔗 Default Ports:
+- HTTP: 80
+- HTTPS: 443
+🔖 '#' in Source Code:
+- Acts like a bookmark.
+💻 DNS:
+- Database storing IPs of websites.
+- Connects each domain with an IP.
+🔧 Methods:
+- POST: Creates entity.
+- PUT: Updates entire entity.
+- PATCH: Updates specified fields.
+🔄 Entity Modification:
+- POST: Create entity.
+- PUT: Update entire entity if needed.
+- PATCH: Update specific fields.
+🔑 Registration & Authorization:
+- POST methods used where credentials are sent to enter.
+- The response determines access.
+🚦 Status Codes:
+- 1xx: Informational
+- 2xx: Request accepted
+- 3xx: Redirection
+- 4xx: Client error (my mistake, I did not send the correct information through the HTTP request)
+  - 401: Unauthorized
+  - 403: Forbidden
+- 5xx: Server error (backend error, I must report it to the backend developer)
+🔍 Tip:
+- Test all endpoints on Postman and THEN start coding.
