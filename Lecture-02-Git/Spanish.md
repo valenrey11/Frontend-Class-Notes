@@ -1,27 +1,27 @@
-### Clase 2: Tema "Git"
+# 📚 Clase 2: Tema "Git"
 
-📁 **Git**:
+## 📁 Git
 - Almacena historial del proyecto.
 
-🔑 **Autenticación SSH**:
+## 🔑 Autenticación SSH
 - Dos claves:
   1) Local (privada, una por PC).
   2) Pública remota (del repositorio remoto).
 
-🔄 **Fetch vs Pull**:
-- **Fetch**: Obtiene historial del proyecto (todas las ramas).
-- **Pull**: Obtiene cambios de código (dentro de ramas).
+## 🔄 Fetch vs Pull
+- Fetch: Obtiene historial del proyecto (todas las ramas).
+- Pull: Obtiene cambios de código (dentro de ramas).
 
-📍 **HEAD**:
+## 📍 HEAD
 - Apunta dónde estás en el historial de git.
 - Ejemplo: Podría apuntar a 3 commits antes del último.
 
-🛠️ **Tres Etapas**:
-1) **Directorio de trabajo**: Cambios locales.
-2) **Área de preparación**: Archivos modificados para futuros commits.
-3) **Historial de commits**: Cambios registrados.
+## 🛠️ Tres Etapas
+1) Directorio de trabajo: Cambios locales.
+2) Área de preparación: Archivos modificados para futuros commits.
+3) Historial de commits: Cambios registrados.
 
-🔧 **Comandos**:
+## 🔧 Comandos
 - `branch`: Muestra todas las ramas (y la actual).
 - `checkout`: Se mueve a hash de commit o rama.
 - `revert`: Crea nuevo commit revirtiendo el último.
@@ -33,6 +33,6 @@
 - `amend`: Cambia nombre de commit o añade archivos al último commit.
 - `cherry pick`: Toma commit arbitrario de una rama y lo mueve a otra.
 
-🔍 **Consejos**:
+## 🔍 Consejos
 1) Al conectar local con remoto, evitar añadir archivos al principio.
 2) Siempre saber quién más está trabajando en la rama de la funcionalidad para colaborar efectivamente.
